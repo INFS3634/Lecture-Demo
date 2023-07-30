@@ -30,7 +30,7 @@ public class Course {
     public static ArrayList<Course> getData(){
         ArrayList<Course> courseList = new ArrayList<>();
         for(int i=0; i < 30; i++) {
-            Course course = new Course(String.valueOf(i+1), "Course "+ String.valueOf(i+1));
+            Course course = new Course("INFS"+String.valueOf(i+1001), "Information Systems Course "+ String.valueOf(i+1));
             courseList.add(course);
         }
         return courseList;
